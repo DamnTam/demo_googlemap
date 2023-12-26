@@ -104,7 +104,7 @@ class _MapScreenState extends State<MapScreen> {
       ),
       body: permissionStatus == PermissionStatus.denied
           ? const Center(
-              child: Text('Permission not granted!!Checkout app settings',
+              child: Text('Permission not granted!!!Checkout app settings',
                   style: TextStyle(color: Colors.red, fontSize: 20)))
           : currentLocation == null
               ? const Center(
